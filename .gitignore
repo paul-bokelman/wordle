@@ -1,3 +1,34 @@
+## Root ##
 /.DS_Store
+.vscode/
+
+## Client ##
 /client/node_modules
 /client/dist
+
+## Servers ## 
+
+# Springboot
+
+servers/springboot/target/
+servers/springboot/!.mvn/wrapper/maven-wrapper.jar
+servers/springboot/!**/src/main/**
+servers/springboot/!**/src/test/**
+servers/springboot/.apt_generated
+servers/springboot/.classpath
+servers/springboot/.factorypath
+servers/springboot/.project
+servers/springboot/.settings
+servers/springboot/.springBeans
+servers/springboot/.sts4-cache
+servers/springboot/nbproject/private/
+servers/springboot/nbbuild/
+servers/springboot/dist/
+servers/springboot/nbdist/
+servers/springboot/.nb-gradle/
+servers/springboot/build/
+
+# Flask
+
+servers/flask/__pycache__/
+servers/flask/database.db

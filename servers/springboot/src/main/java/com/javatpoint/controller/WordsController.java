@@ -36,13 +36,7 @@ public class WordsController {
 
     @PostMapping("/word/add")
     private long saveWord(@RequestBody Words words) {
-        wordsService.saveOrUpdate(words);
+        wordsService.save(words);
         return words.getWordId();
-    }
-
-    @PutMapping("/word/update")
-    private Words update(@RequestBody Words words) {
-        wordsService.saveOrUpdate(words);
-        return words;
     }
 }

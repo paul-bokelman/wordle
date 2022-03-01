@@ -35,15 +35,11 @@ public class WordsService {
         return randomWord;
     }
 
-    public void saveOrUpdate(Words words) {
+    public void save(Words words) {
         wordsRepository.save(words);
     }
 
     public void delete(int id) {
         wordsRepository.deleteById(id);
-    }
-
-    public void update(Words words, int id) {
-        wordsRepository.save(words);
     }
 }
