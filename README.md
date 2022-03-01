@@ -1,0 +1,3 @@
+# wordle
+
+wordle unlimited with 3 different servers...
