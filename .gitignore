@@ -8,6 +8,8 @@
 
 ## Servers ## 
 
+servers/.DS_Store
+
 # Springboot
 
 servers/springboot/target/
@@ -32,3 +34,9 @@ servers/springboot/build/
 
 servers/flask/__pycache__/
 servers/flask/database.db
+
+# Express
+
+/servers/express/node_modules/
+servers/express/.DS_Store
+servers/express/src/prisma/database.db
